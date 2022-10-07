@@ -17,6 +17,8 @@ Não é versionada e é ignorada tanto pelo git como pelo docker.
 
 Os mods são gerenciados automaticamente pelo packwiz em um [outro repositório](https://github.com/roridev/soberana-server-mods).
 
+- Você pode adicionar mods manualmente com `docker cp ./mod.jar container:/opt/minecraft/mods/`  
+
 ## Como eu faço pra ligar isso?
 
 - Verifique que você tenha memória ram o suficiente para abrir o server (~1G)
@@ -39,6 +41,10 @@ Os mods são gerenciados automaticamente pelo packwiz em um [outro repositório]
 - Execute `docker-compose -f docker-compose.yaml up`
 
 ## Dicas
+
+> Essas dicas assumem que o `docker-compose.yaml` não foi alterado.
+> Mais precisamente o nome do serviço.
+> Troque `soberana-server_dev_1` pelo nome do container se necessário.
 
 - Para mandar comandos para o servidor use o seguinte comando: 
 
