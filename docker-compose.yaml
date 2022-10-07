@@ -1,0 +1,15 @@
+version: '3'
+services:
+  dev:
+    image: soberana-server
+    ports:
+      - "25565:25565/tcp"
+      - "24454:24454/udp" 
+    environment:
+      - MIN_RAM=512M
+      - MAX_RAM=1G
+    volumes:
+      - ./world:/opt/minecraft/world
+      - mc-data:/opt/minecraft
+volumes:
+  mc-data:

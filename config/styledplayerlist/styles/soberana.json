@@ -1,0 +1,21 @@
+{
+    "id": "soberana",
+    "name": "Soberana",
+    "header": [
+      "",
+      "<gr:#f95406:#eb005c><bold> Soberana</bold></gr> Craft ",
+      "",
+      "<c:yellow> Mapa: </c>Temporário",
+      "<c:yellow> Online: </c><c:#f95406> %server:online%</c><c:dark_gray>/</c><c:#eb005c>%server:max_players%</c>"
+    ],
+    "footer": [
+      "",
+      "<color:#555555><strikethrough>                          </strikethrough></color>",
+      "",
+      "<gray>TPS: %spark:tps 1m% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>",
+      "<gray>CPU: %spark:cpu_process 1m%<dark_gray>/</dark_gray>%spark:cpu_system 1m% <dark_gray>|</dark_gray> RAM: %server:used_ram gb%<dark_gray>/</dark_gray>%server:max_ram gb%GB",
+      ""
+    ],
+    "hidden": false,
+    "permission": ""
+  }
