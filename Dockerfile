@@ -1,6 +1,10 @@
 # Configuração inicial
 FROM eclipse-temurin:17
 
+LABEL org.opencontainers.image.source="https://github.com/roridev/soberana-server.git"
+LABEL org.opencontainers.image.description="Imagem docker do servidor de minecraft da soberana"
+LABEL org.opencontainers.image.licenses="CC0"
+
 # Versão do minecraft
 ENV MC_VERSION="1.19.2" 
 
