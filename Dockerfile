@@ -47,6 +47,8 @@ WORKDIR /opt/minecraft
 # Permanencia de dados
 VOLUME [ "/opt/minecraft" ]
 
+ARG CACHEBUST=1
+
 RUN java -cp /opt/tools/packwiz-installer-*.jar link.infra.packwiz.installer.Main -s server https://roridev.github.io/soberana-server-mods/pack.toml 
 
 COPY server.properties .
