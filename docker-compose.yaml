@@ -1,7 +1,7 @@
 version: '3'
 services:
   dev:
-    image: soberana-server
+    image: soberana-server:latest
     ports:
       - "25565:25565/tcp"
       - "24454:24454/udp" 
@@ -10,6 +10,7 @@ services:
       - MAX_RAM=1G
     volumes:
       - ./world:/opt/minecraft/world
+      - ./auth:/opt/minecraft/mods/EasyAuth
       - mc-data:/opt/minecraft
 volumes:
   mc-data:
