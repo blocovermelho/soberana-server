@@ -4,7 +4,8 @@ services:
     image: soberana-server:latest
     ports:
       - "25565:25565/tcp"
-      - "24454:24454/udp" 
+      - "25565:25565/udp"
+      - "24454:24454/udp"
     environment:
       - MIN_RAM=512M
       - MAX_RAM=1G
