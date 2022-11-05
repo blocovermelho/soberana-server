@@ -1,7 +1,7 @@
 {
   "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
   "_comment": "Before changing anything, see https://github.com/Patbox/StyledPlayerList#configuration",
-  "defaultStyle": "soberana",
+  "defaultStyle": "experimental",
   "updateRate": 20,
   "displayOnSingleplayer": true,
   "switchMessage": "Your player list style has been changed to: <gold>${style}</gold>",
