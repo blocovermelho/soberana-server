@@ -21,7 +21,9 @@
   "standardBanPlayersWithBannedIps": false,
   "autoBansFromIpBansAreSilent": true,
   "defaultOpPermissionLevel": 3,
-  "discordWebhookUrl": "",
+  "discordWebhookUrls": [
+    ""
+  ],
   "databaseType": "sqlite",
   "sqliteDatabaseLocation": "banhammer-sqlite.db",
   "mysqlDatabaseAddress": "",

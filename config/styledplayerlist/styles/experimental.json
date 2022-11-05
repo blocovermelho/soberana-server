@@ -1,0 +1,26 @@
+{
+    "id": "experimental",
+    "name": "Soberana - Experimental Mods",
+    "header": [
+      "",
+      "<gr:#f95406:#eb005c><bold> Soberana</bold></gr> Craft ",
+      "<color:#555555><strikethrough>                          </strikethrough></color>",
+      "<c:yellow> Mapa: </c><red><bold>Temporário</bold></red>",
+      "Veja o <bold>anúncio</bold> no canal",
+      "<c:#7289da>#Anúncios | Servidor de Minecraft da Soberana</c>",
+      "<color:#555555><strikethrough>                          </strikethrough></color>",
+      "<c:yellow> Online: </c><c:#f95406> %server:online%</c><c:dark_gray>/</c><c:#eb005c>%server:max_players%</c>"
+    ],
+    "footer": [
+      "",
+      "<color:#555555><strikethrough>                          </strikethrough></color>",
+      "",
+      "<gray>TPS: %spark:tps 1m% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>",
+      "<gray>CPU: %spark:cpu_process 1m%<dark_gray>/</dark_gray>%spark:cpu_system 1m% <dark_gray>|</dark_gray> RAM: %server:used_ram gb%<dark_gray>/</dark_gray>%server:max_ram gb%GB",
+      "",
+      "<red>ᴇxᴘᴇʀɪᴍᴇɴᴛᴀʟ</red>:<yellow>Suporte Bedrock</yellow>",
+      "Favor reportar qualquer erro de conexão no servidor."
+    ],
+    "hidden": false,
+    "permission": ""
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667477449276,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1GICbUsscw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667476789950,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/279OtRUY6z"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667436807736,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JRdvePGX2Q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667436292306,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0A6VuOIH49"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667436080643,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jPlPyT0bdj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667435776126,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/z70Q1OTjnQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667432951032,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kTiGXnBfao"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667209561357,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/y1j4iESK1t"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667158084379,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zOU4ivSIwH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667149333186,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/o67sYDugiw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667149099979,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/V14WoDOyXk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667128943870,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1IWgG6OcbN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667128703940,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/S0z6SAXRbD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667014311499,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4yytvp3NWk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667013875189,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Ja19Npq4pl"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667013684902,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rCYPSFsRcf"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1667012841027,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/l24g3xGM33"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "roridev",
+      "uniqueId": "f33d0bab-5331-3111-a087-cd0422ec07c4"
+    },
+    "time": 1666697289432,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bK8vjPfGRK"
+    }
+  }
+]
