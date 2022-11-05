@@ -11,6 +11,8 @@ ENV MC_VERSION="1.19.2"
 ENV MIN_RAM=1G
 ENV MAX_RAM=2G
 
+ENV QUILT_VERSION=0.17.6
+
 ARG MC_HELPER_VERSION="1.22.7"
 ARG MC_HELPER_BASE_URL=https://github.com/itzg/mc-image-helper/releases/download/v${MC_HELPER_VERSION}
 
@@ -43,7 +45,7 @@ RUN mc-image-helper maven-download \
                            --skip-existing
 
 # Instala o quilt pelo command line
-RUN java -jar quilt.jar install server ${MC_VERSION} --download-server --install-dir=/opt/minecraft
+RUN java -jar quilt.jar install server ${MC_VERSION} ${QUILT_VERSION} --download-server --install-dir=/opt/minecraft
 
 # Pasta do servidor
 WORKDIR /opt/minecraft
@@ -64,7 +66,7 @@ RUN echo "eula=true" > eula.txt
 CMD /opt/minecraft/start.sh ${MIN_RAM} ${MAX_RAM}
 
 # Expõe a porta padrão do jogo (25565)
-EXPOSE 25565/tcp
+EXPOSE 25566/tcp
 
 # Expõe a porta do Simple Voice Mod
 EXPOSE 24454/udp

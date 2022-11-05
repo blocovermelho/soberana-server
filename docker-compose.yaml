@@ -3,9 +3,9 @@ services:
   dev:
     image: soberana-server:latest
     ports:
-      - "25565:25565/tcp"
-      - "25565:25565/udp"
       - "24454:24454/udp"
+    expose:
+      - "25566"
     environment:
       - MIN_RAM=512M
       - MAX_RAM=1G
@@ -13,5 +13,17 @@ services:
       - ./world:/opt/minecraft/world
       - ./auth:/opt/minecraft/mods/EasyAuth
       - mc-data:/opt/minecraft
+  proxy:
+    image: soberana-proxy:latest
+    ports:
+      - "19132:19132/udp"
+      - "25565:25565/tcp"
+      - "25565:25565/udp"
+    environment:
+      - MIN_RAM=512M
+      - MAX_RAM=512M
+    volumes:
+      - proxy-data:/opt/proxy
 volumes:
   mc-data:
+  proxy-data:
