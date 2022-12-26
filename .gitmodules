@@ -1,0 +1,3 @@
+[submodule "server-mods"]
+	path = server-mods
+	url = https://github.com/soberanacraft/soberana-server-mods.git
